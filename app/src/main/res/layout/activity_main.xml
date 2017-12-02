@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context="kirandroid.yipl_android_list_me.MainActivity">
 
+    <TextView
+        android:id="@+id/postId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/postTitle"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/postText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </android.support.constraint.ConstraintLayout>
